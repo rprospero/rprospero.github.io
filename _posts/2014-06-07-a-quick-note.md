@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: A Quick Notes
+title: A Quick Note
 tags:
 - meta
 
