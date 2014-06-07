@@ -6,6 +6,7 @@
 	    {% for post in site.posts %}
 	    <li>
 	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      <p>Posted: {{post.date| | date: "%Y-%m-%d"}}</p>
 	      {{post.excerpt}}
 	    </li>
 	    {% endfor %}
