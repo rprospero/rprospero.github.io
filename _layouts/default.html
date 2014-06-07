@@ -1,5 +1,13 @@
 {% include header.html %}
 	  <h3>{{page.title}}</h3>
+	  <h4>
+	    <tr>
+	      <td>Tags:  </td>
+	      {% for tag in page.tags %}
+	      <td>{{tag}}</td>
+	      {% endfor %}
+	    </tr>
+	  </h4>
 	  {{content}}
 
 {% include footer.html %}
