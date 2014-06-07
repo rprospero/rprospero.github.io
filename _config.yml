@@ -2,3 +2,4 @@ title: Facile Physics
 name: Facile Physics
 description: A blog about my misguided adventures in science and programming
 url: "http://rprospero.github.io"
+markdown: kramdown
