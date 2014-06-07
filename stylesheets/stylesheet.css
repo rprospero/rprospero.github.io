@@ -334,6 +334,10 @@ ol {
   list-style: decimal inside;
   padding-left: 3px;
 }
+ol ol {
+    list-style-type: lower-alpha;
+    padding-left: 23px;
+}
 
 dl dd {
   font-style: italic;
