@@ -7,8 +7,7 @@ tags:
 - nudity
 - Archimedes
 - buoyancy
-excerpt: You've probably heard the story of Archimedes and the golden
-crown, but have you heard the full story?
+excerpt: You've probably heard the story of Archimedes and the golden crown, but have you heard the full story?
 
 ---
 
