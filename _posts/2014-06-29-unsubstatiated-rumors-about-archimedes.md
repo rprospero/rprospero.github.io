@@ -113,8 +113,6 @@ king donates a tiny piece of gold with weight $$W_{gold}$$ and volume
 $$V_{gold}$$. Archimedes can then hang both pieces from opposite ends
 of a long straight rod.
 
-This is a place holder until I can actually make a drawing.
-
 ~~~~~~~
        |
        |                              
