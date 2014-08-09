@@ -165,7 +165,7 @@ We'll stop here for right now. Translating every language that exists
 or ever will exist with a single line of algebra is probably enough
 for one blog post.  My next post will continue with this to explain
 some more advanced concepts, like eigenvectors, and how they relate to
-goofy toys like <translationparty.com>
+goofy toys like [translationparty.com](http://translationparty.com).
 
 Footnotes
 ===
