@@ -106,11 +106,16 @@ so we'll just move on.
  change what we're looking at.  We'll start with the easiest
  operator - the identity operator.
 
-$$ID = \sum |word><word|$$
+~~~
+ID = ∑ |word><word|
+~~~
 
-The big sigma[^3] is just an easy way of writing "add up all the things".  I could have just as easily written
+The big sigma[^3] is just an easy way of writing "add up all the
+things".  I could have just as easily written
 
-$$ID = |mind><mind| + |carrot><carrot| + |cotinga><cotinga| + |ladle><ladle| + \cdots$$
+~~~
+ID = |mind><mind| + |carrot><carrot| + |cotinga><cotinga| + |ladle><ladle| + ⋯
+~~~
 
 The idea is that *ID* has the outer product of every word with
 itself. So, if you use the operator on any word, you get the same
@@ -138,14 +143,18 @@ Fudd.  We can then extend this idea into a more useful kind of
 translation.  We're going to make a matrix called *E* which is similar
 to identity, except that it only has words in English.
 
-$$E = \sum |English word><English word|$$
+~~~
+E = ∑ |English word><English word|
+~~~
 
 This simple little operator takes a phrase in any language and returns
 every possible translation into English, weighted by the quality of
 the translation.  For instance, imagine that our word is *animus*
 again. Using the operator on the |animus> *ket* gives us:
 
-$$E |animus> = \sum |English word><English word|animus>$$
+~~~
+E |animus> = ∑ |English word><English word|animus>
+~~~
 
 From what we know about inner products, we know that the <English
 word|animus> part tells us how well each word translates |animus>.
